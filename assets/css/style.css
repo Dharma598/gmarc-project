@@ -1216,3 +1216,24 @@ section {
   text-align: center;
   font-size: 13px;
 }
+
+.rate {
+  float: left;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+ 
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ffc700;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
