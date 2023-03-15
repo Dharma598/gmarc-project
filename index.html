@@ -15,7 +15,7 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -56,7 +56,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="Gitanjali Medical & Research Center">Gitanjali Medical & Research Center</a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
 
@@ -70,7 +70,6 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#appointment" class="appointment-btn scrollto">Appointment</a>
 
     </div>
   </header><!-- End Header -->
@@ -86,7 +85,7 @@
           <!-- Slide 1 -->
           <div class="carousel-item active" style="background-image: url(assets/img/slide/gmarc-slide.jpg)">
               <div class="container">
-                  <h2>Welcome to <span>GMARC</span></h2>
+                  <h2>Welcome to <span>Gitanjali Medical & Research Center</span></h2>
                   <p>
                       <h3>Get hospital like Healthcare at Home</h3><br />
                       Get world class healthcare services like physiotherapists, nurses, trained attendants, elderly care, post surgical care etc. all within the comforts of your
@@ -160,7 +159,7 @@
 
         <div class="text-center">
           <h3>In an emergency? Need help now?</h3>     
-          <a class="cta-btn scrollto" href="#appointment">Make an Appointment</a>
+          <a>Need help? Call: <b>+91-8951973547 </b> or Message our expert Now</a>
         </div>
 
       </div>
@@ -177,7 +176,7 @@
               GMARC promotes a better understanding of patients needs by assisting and supporting them with their daily needs
               . GMARC offers a reservoir of qualified medical & nursing team, skilled & experience physiotherapist at your
               doorstep with complete support to improve the quality of life from all dimensions. We provide everything from
-              simple injection administration through post operative care for the patient that helps them them recover in the
+              simple injection administration through post operative care for the patient that helps them recover in the
               comfort of their own homes.
           </p>
         </div>
@@ -256,16 +255,45 @@
                 </h3>
                
             </div>
+
+
             <div class="row">
-                <p>
-                    1. Physiotherapy services are really good from Dr. Sasmita. Maintains good hygiene and ambience was patient friendly. 5*
-                    Rating
-                </p>
+              
+                  <div class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                    <span>Physiotherapy services are really good from Dr. Sasmita. Maintains good hygiene and ambience was patient friendly.</span>
+                  </div>
+               
                     <br />
+                    
+                      <div class="rate">
+                        <input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                        <span>Last month I have visited the clinic with severe neck pain . After having discussion, taken 4 Physio session from Dr. Sasmita, the pain has
+                          been reduced and now I am in great relieve. Dr. Sasmita is very professional and listen to the patient very carefully. The clinic is neat &
+                          clean and you will have a great positive vibe inside it. I will Strongly recommend this for all kind of Physio service .</span>
+                      </div>
+                       
+                    
                     <p>
-                        2. Last month I have visited the clinic with severe neck pain . After having discussion, taken 4 Physio session from Dr. Sasmita, the pain has
-                        been reduced and now I am in great relieve. Dr. Sasmita is very professional and listen to the patient very carefully. The clinic is neat &
-                        clean and you will have a great positive vibe inside it. I will Strongly recommend this for all kind of Physio service . 5* Rating
+                        
                     </p>
                
             </div>
@@ -273,61 +301,7 @@
             </div>
 </section><!-- End Services Section -->
 
-    <!-- ======= Appointment Section ======= -->
-    <section id="appointment" class="appointment section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Make an Appointment</h2>
-          <p>You should make an appointment by providing the below details. </p>
-        </div>
-
-        <form action="forms/appointment.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
-          <div class="row">
-            <div class="col-md-4 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 form-group mt-3">
-              <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" required>
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <select name="department" id="department" class="form-select">
-                <option value="">Select Type</option>
-                <option value="Physiotherapy">Physiotherapy</option>
-                <option value="Medical Equipment">Medical Equipment</option>
-              
-              </select>
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <select name="doctor" id="doctor" class="form-select">
-                <option value="">Select Doctor</option>
-                <option value="Dr. Sasmita">Dr. Sasmita</option>
-              
-              </select>
-            </div>
-          </div>
-
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-          </div>
-          <div class="my-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
-          </div>
-          <div class="text-center"><button type="submit">Make an Appointment</button></div>
-        </form>
-
-      </div>
-    </section><!-- End Appointment Section -->
+   
 
   
   
@@ -382,17 +356,17 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name*" required="">
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email*" required="">
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject*" required="">
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="7" placeholder="Message" required=""></textarea>
+                <textarea class="form-control" name="message" rows="7" placeholder="Message*" required=""></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
